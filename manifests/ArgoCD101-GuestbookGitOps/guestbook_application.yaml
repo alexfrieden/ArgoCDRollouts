@@ -12,6 +12,6 @@ spec:
     path: manifests/ArgoCD101-GuestbookManifests/
     repoURL: https://github.com/alexfrieden/ArgoCDRollouts
   syncPolicy:
-  automated:
-    prune: true
-    selfHeal: true
+    automated:
+      prune: true
+      selfHeal: true
